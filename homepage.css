@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+body{
+    background-color: white;
+}
+
+#horizontal{
+    box-shadow:3px 2px 2px 0px grey;
+}
+
+.MENUS li{
+    color:black;
+    display:inline;
+    float: right;
+    overflow: hidden;
+    padding: 10px;
+    transition:0.9s;
+}
+
+.MENUS li:hover{
+    border-end-end-radius: 100px;
+    border-top-left-radius: 40px;
+    background-color:black;
+    color:white;
+    cursor:pointer;
+}
+
+.cov-logo{
+    width:150px;
+    height:50px;
+    float:left;
+    transition: 0.9s;
+    border-radius: 20px;
+}
+
+#vaccine-drive{
+    margin:10px;
+    width:1340px;
+    height:400px;
+    transition:0.9s;
+}
+
+.container #register{
+    margin-left:650px;
+    width:100px;
+    height:30px;
+    transition:0.9s;
+    border:2px solid cyan;
+    background-color:white;
+}
+
+.container #register:hover{
+    margin-left:645px;
+    position: static;
+    width:110px;
+    height:40px;
+    border-radius:100px;
+    border:2px solid red;
+    color:aqua;
+    background-color:black;
+    text-transform: uppercase;
+}
+
+.helpline h2{
+    margin-left:620px;
+    color:black;
+}
+
+.HELPLINECONTACTS li{
+    color:black;
+    margin-left:70px;  
+    vertical-align: top;
+    display:inline-block;
+    float: left;
+    overflow: hidden;
+    padding: 10px;
+    transition:0.9s;
+}
+
+.PhoneDiv, .HealthMinistry, .Child,.Mental, .Senior{
+    color:black;
+    padding:3px;
+}
+.PhoneDiv #phone, .HealthMinistry #help, .Child #child, .Mental #mental, .Senior #senior{
+    color:black;
+    padding:8px;
+    float:left;
+    width:50px;
+    height:50px;
+}
+
+.working{
+    width:windowWidth-10;
+    
+}
+
+.work{
+    display: inline;
+}
+
+.work #info,#dont{
+    width:150px;
+    height:30px;
+    margin-left:30px;
+    background:white;
+    color:black;
+    border:2px solid cyan;
+    border-radius:100px;
+    transition: 0.9s;
+}
+
+.work #info:hover,#dont:hover{
+    position:static;
+    width:140px;
+    height:40px;
+    transition:0.9s;
+    background-color:black;
+    border:2px solid red;
+    color:aqua;
+    text-transform: uppercase;
+}
+
+.grievance{
+    background-color: navy;
+    color:white;
+    padding-left:20px;
+}

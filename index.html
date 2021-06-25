@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JCowin</title>
+    <script src="Login.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="Login.css"/>
+
+  </head>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyClWxjoLLdVk51Hkp3kho09mYxoeHEQOhM",
+    authDomain: "logindb-8c4d4.firebaseapp.com",
+    databaseURL: "https://logindb-8c4d4-default-rtdb.firebaseio.com",
+    projectId: "logindb-8c4d4",
+    storageBucket: "logindb-8c4d4.appspot.com",
+    messagingSenderId: "575374309378",
+    appId: "1:575374309378:web:d522309d070b2cf5e38f1b"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+  <body>
+
+
+    
+      <div class="container">
+        <form action="">
+          <img src = "unknown.jpg" id="unknown">
+          <h1>Login</h1>
+            <div class="form-group">
+              <label>Email Address</label>
+              <input type="text" class="form-control1A" required placeholder="Email Address">
+              <label>Phone Number</label>
+              <input type="number" class="form-control3A" required placeholder="Phone Number">
+            </div>
+
+
+            <div class="form-group">
+              <label>Password</label>
+              <input type="password" class="form-control2A" required placeholder="Password">
+            </div>
+
+            <input type="button" class="button" value="Login">
+            <br>
+            <label class="notAMem">Not a Member <a href='signup.html' class="signup">Sign Up</a></label>
+
+
+
+        </form>
+      </div>
+
+    
+  </body>
+
+
+</html>

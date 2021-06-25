@@ -1,0 +1,117 @@
+*{
+  margin:0px;
+  padding:0;
+  box-sizing:border-box
+ 
+}
+body{
+  background-image: url("bg.jpg");
+  display:flex;
+}
+.container{
+  margin-left:450px;
+  margin-top: 80px;
+  width:500px;
+  max-width:90%;
+  transition: 0.9s;
+}
+
+
+.container form #unknown{
+  width:100px;
+  height:100px;
+  margin-left:180px;
+  trasition:0.9s;
+  box-shadow: 0px 0px 20px 0px azure;
+  border-radius: 100px; 
+}
+.container form #unknown:hover{
+  position:static;
+  width:120px;
+  height:120px;
+  transition: 0.9s;
+
+  margin-left:170px;
+}
+
+
+
+.container form{
+  width:100%;
+  height:100%;
+  padding:20px;
+  background:black;
+  color:white;
+  border-radius:20px;
+  box-shadow: 0 8px 16px black;
+}
+.container form h1{
+  text-align:center;
+  padding:10px;
+  margin-bottom:24px;
+}
+.container form .form-control1A ,.form-control2A,.form-control3A{
+  width:100%;
+  height:40px;
+  background:white;
+  border:1px solid silver;
+  margin: 10px 0 18px 0;
+  border-radius:20px;
+  padding:0 10px;
+}
+.container form .button{
+  margin-left:165px;
+  transform:traslateX(-50%);
+  width:120px;
+  height:34px;
+  border:none;
+  outline:none;
+  background:#27a327;
+  cursor:pointer;
+  font-size:16px;
+  text-transform:uppercase;
+  color:white;
+  border-radius: 8px;
+  transition:.3s;
+
+}
+.container form .button:hover{
+  width:125px;
+  height:40px;
+  background: antiquewhite;
+  color: black;
+
+}
+
+.container form .form-control1A:hover{
+  border:0px;
+  box-shadow: 0 5px 5px aquamarine;
+  transition: 0.1s;
+  transform:traslateX(-50%);
+}
+
+.container form .form-control2A:hover{
+  border:0px;
+  box-shadow: 0 5px 5px aqua;
+  transition: 0.1s;
+}
+.container form .form-control3A:hover{
+  border:0px;
+  box-shadow: 0 5px 5px antiquewhite;
+  transition: 0.1s;
+}
+
+.container form .signup:hover{
+  color:#27a327;
+  box-shadow: 0px 5px 5px 2px rgb(98, 84, 190);
+  border-radius: 10px;
+  transition:0.1s;
+  text-transform: uppercase;
+}
+
+.container form .notAMem{
+  padding:10px;
+  margin-left:130px;
+  outline:none;
+
+}
